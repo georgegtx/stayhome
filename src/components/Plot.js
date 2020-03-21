@@ -397,7 +397,7 @@ export default class Plot extends Component<Props, State> {
           </div>
           <div className="plot-legend">
             <div className="plot-legend-button">
-              <WidgetButton onClick={() => {this.resetArrays()}}>Καραρισμός</WidgetButton>
+              <WidgetButton onClick={() => {this.resetArrays()}}>Καθαρισμός</WidgetButton>
             </div>
             <div style={{display: 'flex', flexDirection: 'column'}}>
               <div>{infectedCB}</div>
